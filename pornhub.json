@@ -1,11 +1,23 @@
+
 {
-  "name": "Pornhub",
-  "description": "Scrape links from a webpage",
-  "iconUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.wP9gBGh4DHKOHA8jQg34CQHaGM%26pid%3DApi&f=1&ipt=9d7e6e939de5d0b1388692c4e1b6b1c22fc2439b2a0a0c604b76f48adfb23910&ipo=images",
-  "id": "309b2e83-7ede-4af8-8ee9-822bc4647a24",
-  "scriptSignature": "key",
-  "scriptPublicKey": "key",
-  "packages": ["Http"],
-  "allowEval": false,
-  "allowUrls": ["everywhere"]
+	"name": "Pornhub",
+	"description": "A description for your plugin",
+	"author": "Your author name",
+	"authorUrl": "https://yoursite.com",
+	
+	"sourceUrl": "https://yoursite.com/SomeConfig.json",
+	"repositoryUrl": "https://github.com/someuser/someproject",
+	"scriptUrl": "./SomeScript.js",
+	"version": 1,
+	"iconUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.wP9gBGh4DHKOHA8jQg34CQHaGM%26pid%3DApi&f=1&ipt=9d7e6e939de5d0b1388692c4e1b6b1c22fc2439b2a0a0c604b76f48adfb23910&ipo=images",
+	"id": "c215cb1a-6f06-4bfe-985f-d481e590f1ab",
+	
+	"scriptSignature": "key",
+	"scriptPublicKey": "key",
+	"packages": ["Http"],
+	
+	"allowEval": false,
+	"allowUrls": [
+		"everywhere"
+	]
 }
